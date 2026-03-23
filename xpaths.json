@@ -1,0 +1,15 @@
+{
+  "cities_path":"//li/a[@class='citylink']",
+  "outlets_path": "//div[@class='panel panel-default custom-panel']",
+  "address_path": "string(.//p[@class='grey-text mb-0'])",
+  "outletName_path": "string(.//div[@class='media-body']//h2)",
+  "area_path": "string(.//p[@class='city-main-sub-title'])",
+  "deliveryTime_path": "string(.//p[contains(@class,'red-text')])",
+  "cost_path": "string(.//div[contains(@class,'res-cost')]//span[2])",
+  "timing_path": "string(.//div[contains(@class,'res-timing')]//div/text()[1])",
+  "status_path": "string(.//div[contains(@class,'res-timing')]//div/span)",
+  "goodFor_path": "string(.//div[contains(@class,'clearfix')]//p)",
+  "phone_path": "string(.//div[contains(@class,'call')]//p[2])",
+  "storeUrl_path": "string(.//div[@class='media-body']//a[1]/@href)",
+  "menuUrl_path": "string(.//a[contains(text(),'View Menu')]/@href)"
+}
